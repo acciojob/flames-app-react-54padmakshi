@@ -2,7 +2,16 @@ import React, {Component, useState} from "react";
 import '../styles/App.css';
 
 class App extends Component {
-
+  check () {
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+     for (let j = 0; j < array.length; j++) {
+        const element = array[j];
+        
+     }   
+    }
+  }  
+ 
 
     render() {
 
